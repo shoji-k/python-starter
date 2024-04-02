@@ -20,6 +20,12 @@ docker run -it --rm -v "$(pwd):/app" python-sandbox:latest bash
 poetry add (package)
 ```
 
+## Run Python script
+
+```bash
+poetry run python app.py
+```
+
 ## Run flake8
 
 ```bash
