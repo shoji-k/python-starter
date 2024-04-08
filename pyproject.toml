@@ -12,6 +12,7 @@ mypy = "^1.8.0"
 black = "^24.2.0"
 isort = "^5.13.2"
 pandas = "^2.2.1"
+pandas-stubs = "^2.2.1.240316"
 
 
 [build-system]

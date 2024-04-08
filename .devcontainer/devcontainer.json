@@ -17,7 +17,9 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-
+	"waitFor": "onCreateCommand",
+	"updateContentCommand": "poetry install",
+ 
 	// Configure tool-specific properties.
 	// "customizations": {},
 
@@ -26,7 +28,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-python.python"
+				"ms-python.python",
+				"ms-python.black-formatter",
+				"ms-python.flake8",
+				"ms-python.mypy-type-checker"
 			]
 		}
 	}

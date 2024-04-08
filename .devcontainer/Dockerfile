@@ -32,10 +32,10 @@ WORKDIR /app
 # ENV HOME /app
 
 # copy the poetry files
-COPY poetry.lock pyproject.toml /app/
+# COPY poetry.lock pyproject.toml /app/
 
-# install the dependencies
-RUN poetry install
+# # install the dependencies
+# RUN poetry install
 
 # copy the application
 # COPY . /app
