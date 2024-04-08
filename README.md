@@ -1,5 +1,18 @@
 # README
 
+## only for Docker remote container
+
+sync poetry.lock and pyproject.toml under .devcontainer
+
+```bash
+cp poetry.lock ./devcontainer
+cp pyproject.toml ./devcontainer
+```
+
+### in terminal
+
+run `bash` to boot bash
+
 ## Docker container
 
 build
