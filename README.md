@@ -1,14 +1,5 @@
 # README
 
-## only for Docker remote container
-
-sync poetry.lock and pyproject.toml under .devcontainer
-
-```bash
-cp poetry.lock ./devcontainer
-cp pyproject.toml ./devcontainer
-```
-
 ### in terminal
 
 run `bash` to boot bash
@@ -44,3 +35,11 @@ poetry run python app.py
 ```bash
 poetry run flake8 app.py
 ```
+
+## be in venv
+
+```bash
+poetry shell
+```
+
+so you don't need to type `poetry run` everytime

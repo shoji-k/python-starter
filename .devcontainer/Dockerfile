@@ -1,7 +1,7 @@
 FROM python:3.12.2
 
 RUN pip install --upgrade pip && pip install poetry
-# RUN poetry config virtualenvs.in-project true
+RUN poetry config virtualenvs.in-project true
 
 # https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
 ARG USERNAME=vscode
