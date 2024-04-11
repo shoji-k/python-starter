@@ -19,7 +19,9 @@
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 	"waitFor": "onCreateCommand",
 	"updateContentCommand": "poetry install",
- 
+	// "postStartCommand": "bash",
+	// "postAttachCommand": "bash",
+	
 	// Configure tool-specific properties.
 	// "customizations": {},
 
