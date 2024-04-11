@@ -10,6 +10,7 @@ stream = client.chat.completions.create(
     model=model,
     messages=[{"role": "user", "content": "Give me a number out of 10"}],
     stream=True,
+    temperature=0,
 )
 for chunk in stream:
     print(chunk.choices[0].delta.content or "", end="")
